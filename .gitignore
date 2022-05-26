@@ -1,6 +1,7 @@
 #being strict and focused
 *
 !stat_dir*.py
+to_be_ignored/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
