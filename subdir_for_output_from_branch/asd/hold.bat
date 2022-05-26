@@ -1,0 +1,1 @@
+cmd /k python F:\tmp.py

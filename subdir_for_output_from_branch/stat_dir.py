@@ -33,7 +33,8 @@ from shutil import copy,copytree
 
 layout = [
     [sg.Text('Path')],
-    [sg.Input(key='path')],
+    [sg.Input('F:\\Anaconda_Play\\DirStat\\subdir_for_output_from_branch\\asd',key='path')],
+    # [sg.Input(key='path')],
     [sg.Button('submit'), sg.Button('cancel')],
     # [sg.Text('输出：'), sg.Text(key='OUTPUT')]
 ]
@@ -42,10 +43,10 @@ while True:
     event, values = window.read()
     # print(event)
     # print(values)
-    if event in (None, 'cancel'):
-        break
-    else:
+    if event in (None, 'submit', 'cancel'):
         path = values['path']
+        break
+    # else:
         # window['OUTPUT'].update(values['INPUT1'])
 
 copy_long_path_folder = False
