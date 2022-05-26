@@ -232,40 +232,4 @@ class stat_dir:
 if __name__ == '__main__':
     stat_dir()
 
-# input('raw')
-
-
-
-
-
-
-
-
-# file_path_list = sorted(file_path_list, key = lambda x: len(x), reverse = True)
-# copy( file_path_list[0], '.')
-# xxx
-
-
-
-
-
-
-
-# with open( 'output\\' + 'Folder_name_by_file_path_length（260+）_min - ' + str(datetime.now()).replace(':','-') + '.efu', 'w', encoding = 'utf-8') as f:
-# 	f.write( 'Filename\n' +      '\n'.join(    ''.join( [    '"' + folder_path + '"' ] )     for folder_path in folder_with_long_file_path )            ) 
-
-
-
-
-
-    # f.write( '\n\n'.join( '\n'.join( [ ': '.join( [ folder_path, str( get_size( [folder_path, file_names_list])) ] ) ] ) , '\n'.join( '  ' + file_name for file_name in file_names_list ) ] ) for folder_path, file_names_list in file_names_against_folder_path_list  )  
-
-
-
-
-
-# buf1 = '\n'.join( ':'.join(folder_path, str(len(file_names_list))) for folder_path, file_names_list in file_names_against_folder_path_list)
-# buf2 = '\n'.join( ':'.join(folder_path, file_names_list) for folder_path, file_names_list in file_names_against_folder_path_list)
-
-
 
